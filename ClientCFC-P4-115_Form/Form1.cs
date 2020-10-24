@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.ServiceModel;
-using ServiceMtk_P2_115;
+using ServiceMtk_P2_115;
+
 
 namespace ClientCFC_P4_115_Form
 {
@@ -36,7 +37,12 @@ namespace ClientCFC_P4_115_Form
             Console.ReadLine();
             Koordinat objk = new Koordinat();
 
-            label1.Text = "1 + 2 = " + hasilTambah.ToString();            label2.Text = "3 - 2 = " + hasilKurang.ToString();            label3.Text = "2 x 2 = " + hasilKali.ToString();            label4.Text = "2 / 2 = " + hasilBagi.ToString();           // label5.Text = "Hasil Koordinat " + jarak;
+            label1.Text = "1 + 2 = " + hasilTambah.ToString();
+            label2.Text = "3 - 2 = " + hasilKurang.ToString();
+            label3.Text = "2 x 2 = " + hasilKali.ToString();
+            label4.Text = "2 / 2 = " + hasilBagi.ToString();
+           // label5.Text = "Hasil Koordinat " + jarak;
+
 
         }
     }
